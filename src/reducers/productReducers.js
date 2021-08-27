@@ -3,6 +3,7 @@ const initialState = {
     allProduct:[],
     allProductMen:[],
     allProductWoman:[],
+    productDetail:[]
 }
 
 export const ProdutosReducers = (state = initialState, action) =>{
@@ -13,6 +14,8 @@ export const ProdutosReducers = (state = initialState, action) =>{
             return {...state, allProductMen:action.payload}  
         case "getProductWoman":
             return {...state, allProductWoman:action.payload}  
+        case"getProductDetail":
+            return {...state, productDetail:action.payload}  
         default:
             return state
     }

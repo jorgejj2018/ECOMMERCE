@@ -16,7 +16,7 @@ border-radius:8px;
 margin-left:5%;
 `;
 const CtnRedes = styled.div`
-background-color:whitesmoke;
+background: linear-gradient(90deg, rgba(76,159,185,0.49343487394957986) 55%, rgba(248,219,148,0.6194852941176471) 100%);
 width:30%;
 height:15vh;
 border-radius:80px;

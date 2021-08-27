@@ -36,4 +36,11 @@ export const getProductAll = () => async (dispatch) => {
      });
    };
 
+   export const getProductDetail = (id) => async (dispatch)=>{
+     const res = await db.collection("Productos").doc(id).get()
+     const data = await res.data()
+     console.log(data)
+     dispatch({ type: 'getProductDetail', payload: data });
+   }
+
    

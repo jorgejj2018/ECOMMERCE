@@ -31,7 +31,7 @@ const CtnProductos = () => {
         <Container>
             <ContainerCategori/>
             <ContainerCard>
-                {productos.map(produc => <CardProductos key={produc.id} categoria={produc.categoria} nombre={produc.nombre} precio={produc.precio} img={produc.img}/>)}
+                {productos.map(produc => <CardProductos key={produc.id} id={produc.id} categoria={produc.categoria} nombre={produc.nombre} precio={produc.precio} img={produc.img}/>)}
             </ContainerCard>
         </Container>
         </>

@@ -1,9 +1,10 @@
 import styled, { css, keyframes, ThemeProvider, createGlobalStyle } from 'styled-components';
 
 const ContainerBanner = styled.section`
-width:90%;
+width:70%;
 height:40vh;
 margin:2% auto;
+box-shadow:5px 15px 15px #e3f5f5;
 `;
 const ImgBanner = styled.img`
 background-color:gray;
